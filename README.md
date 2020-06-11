@@ -1,6 +1,7 @@
 # Xi-cam.common_ingestors
 
-A collection of databroker-ingestor style ingestors. These common ingestors aim to support opening FabIO-supported image formats within Xi-CAM.
+A collection of databroker-ingestor style ingestors.
+These common ingestors aim to support opening [FabIO](http://www.silx.org/doc/fabio/latest/)-supported image formats within Xi-CAM.
 
 ## Installation Instructions
 
