@@ -30,7 +30,7 @@ setup(
     install_requires=["fabio"],
     author_email="ronpandolfi@lbl.gov",
     entry_points={
-        "databroker.handlers": [
+        "databroker.ingestors": [
             "image/jpeg = xicam.common_ingestors.generic:ingest",
             "image/tiff = xicam.common_ingestors.generic:ingest",
         ],
