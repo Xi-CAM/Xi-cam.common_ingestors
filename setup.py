@@ -31,8 +31,8 @@ setup(
     author_email="ronpandolfi@lbl.gov",
     entry_points={
         "databroker.ingestors": [
-            "image/jpeg = xicam.common_ingestors.generic:ingest",
-            "image/tiff = xicam.common_ingestors.generic:ingest",
+            "image/jpeg = xicam.common_ingestors.generic:ingest_jpeg",
+            "image/tiff = xicam.common_ingestors.generic:ingest_tiff",
         ],
     },
 )
