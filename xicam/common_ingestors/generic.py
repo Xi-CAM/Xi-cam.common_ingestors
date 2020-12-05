@@ -62,7 +62,7 @@ def ingest(paths):
     # Create the stop document
     yield "stop", run_bundle.compose_stop()
 
-def ingest_tif(*args, **kwargs):
+def ingest_tiff(*args, **kwargs):
     return ingest(*args, **kwargs)
 
 def ingest_jpeg(*args, **kwargs):

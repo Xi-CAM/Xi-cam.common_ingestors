@@ -5,8 +5,7 @@ import numpy as np
 import tifffile
 from PIL import Image
 
-from xicam.core.ingestors import generic
-
+from xicam.common_ingestors import generic
 
 class TestGeneric:
 
